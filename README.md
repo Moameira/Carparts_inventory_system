@@ -15,24 +15,30 @@ A full-stack web application for managing car parts inventory — built for smal
 
 ## 📸 Screenshots
 
-| Dashboard | Parts List | Add / Edit Part |
-|-----------|-----------|-----------------|
-| ![Dashboard](./docs/screenshots/dashboard.png) | ![Parts](./docs/screenshots/parts-list.png) | ![Form](./docs/screenshots/edit-part.png) |
+| Login | Dashboard |
+|-------|-----------|
+| ![Login](./docs/screenshots/login.png) | ![Dashboard](./docs/screenshots/dashboard-admin.png) |
 
+| Parts (Admin) | Parts (Worker) |
+|---------------|----------------|
+| ![Parts Admin](./docs/screenshots/parts-admin.png) | ![Parts Worker](./docs/screenshots/parts-worker.png) |
+
+| Settings |
+|----------|
+| ![Settings](./docs/screenshots/settings.png) |
 ---
 
 ## ✨ Features
 
-- **Parts management** — Create, read, update, and delete car parts with full detail (part number, category, price, stock quantity)
-- **Real-time stock tracking** — Visual indicators (🟢 / 🟡 / 🔴) show stock health at a glance
-- **Low-stock alerts** — Automatic flagging of parts that fall below their reorder level
-- **Category management** — Organise parts by category (brakes, filters, belts, engine, etc.)
-- **Search & filter** — Find any part instantly by name, part number, or category
-- **Dashboard overview** — Summary cards and a bar chart showing stock levels by category
-- **Secure authentication** — JWT-based login to protect inventory data
-- **Stock transaction history** — Every stock change is logged for full traceability
-- **Fully containerised** — Run the entire stack locally with a single Docker command
-
+- **Parts management** — Full CRUD for car parts with part number, category, price, and stock quantity
+- **Role-based access control** — Owner (admin) and Warehouse Worker roles with different permissions
+- **Real-time stock tracking** — Color-coded indicators (🟢 Good / 🟡 Low / 🔴 Critical)
+- **Low-stock alerts** — Automatic flagging of parts below reorder level
+- **Stock transactions** — Workers can log stock IN/OUT with notes
+- **Worker management** — Admin can create and remove worker accounts from Settings
+- **Dashboard overview** — Summary cards and bar chart showing stock by category
+- **Secure authentication** — JWT-based login with role-aware routing
+- **Fully containerised** — Run the entire stack with one Docker command
 ---
 
 ## 🛠️ Tech Stack
