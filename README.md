@@ -8,7 +8,7 @@ A full-stack web application for managing car parts inventory — built for smal
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)
-![CI](https://github.com/YOUR_USERNAME/car-parts-inventory/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Moameira/Carparts_inventory_system/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
