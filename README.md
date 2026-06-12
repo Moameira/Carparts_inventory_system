@@ -66,7 +66,7 @@ A full-stack web application for managing car parts inventory — built for smal
 ### Option A — Run with Docker (recommended)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/car-parts-inventory.git
+git clone https://github.com/Moameira/car-parts-inventory.git
 cd car-parts-inventory
 cp .env.example .env
 docker compose up --build
@@ -76,13 +76,15 @@ The app will be available at:
 - Frontend: http://localhost:5173
 - Backend API: http://localhost:3000
 - Default admin login: `admin@demo.com` / `password123`
+- Default Worker login `worker@demo.com`/ `worker123`
+
 
 ### Option B — Run locally without Docker
 
 **1. Clone the repo and install dependencies**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/car-parts-inventory.git
+git clone https://github.com/Moameira/car-parts-inventory.git
 cd car-parts-inventory
 
 # Install backend dependencies
@@ -219,8 +221,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 👤 Author
 
-**Your Name**  
-Computer Science student @ [Your University]  
-[LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/YOUR_USERNAME)
+**Mohamed Ameira**  
+Computer Science student @ Fachhochschule Münster  
+[LinkedIn](https://linkedin.com/in/mohamed-ameira) · [GitHub](https://github.com/Moameira)
 
 > Built as a portfolio project to demonstrate full-stack development skills with React, Node.js, PostgreSQL, and Docker.
