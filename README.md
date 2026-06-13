@@ -2,7 +2,7 @@
 
 A full-stack web application for managing car parts inventory — built for small automotive businesses that want to move away from spreadsheets and into a proper, real-time stock management solution.
 
-> **Live Demo:** [your-app.vercel.app](https://your-app.vercel.app) &nbsp;|&nbsp; **API Docs:** [your-api.render.com/api-docs](https://your-api.render.com/api-docs)
+> **Live Demo:** [carparts-inventory-system.vercel.app](https://carparts-inventory-system.vercel.app) &nbsp;|&nbsp; **API:** [carparts-backend-03mj.onrender.com](https://carparts-backend-03mj.onrender.com/api/health)
 
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
