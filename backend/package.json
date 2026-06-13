@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit",
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "start:prod": "npx knex migrate:latest && npx knex seed:run && node src/index.js",
+    "test": "jest --forceExit"
   },
   "keywords": [],
   "author": "",
